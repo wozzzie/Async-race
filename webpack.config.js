@@ -10,7 +10,7 @@ const baseConfig = {
   module: {
     rules: [
       {
-        test: /\.svg$/,
+        test: /\.(png|jpg|gif|svg|jpeg)$/,
         use: 'url-loader',
       },
       {
