@@ -1,11 +1,19 @@
 export interface Car {
-  name: string;
-  color: string;
-  id: number;
+  name?: string;
+  color?: string;
+  id: string;
 }
 
 export interface Winner {
   wins: number;
-  times: number;
-  id: number;
+  time: number;
+  id: string;
+}
+
+export interface CarWinner {
+  color: string;
+  name: string;
+  wins: number;
+  time: number;
+  id: string;
 }
